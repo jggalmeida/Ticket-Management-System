@@ -141,3 +141,8 @@ C:\Users\jgalm\Documents\Ticket-Management-System\bin\Debug\netcoreapp3.1\runtim
 C:\Users\jgalm\Documents\Ticket-Management-System\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\jgalm\Documents\Ticket-Management-System\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\jgalm\Documents\Ticket-Management-System\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Create.cshtml.g.cs
+C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Delete.cshtml.g.cs
+C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Details.cshtml.g.cs
+C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Edit.cshtml.g.cs
+C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Index.cshtml.g.cs
