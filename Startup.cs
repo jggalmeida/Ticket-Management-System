@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Ticket_Management_System.Data;
 
 namespace Ticket_Management_System
 {
@@ -23,6 +25,8 @@ namespace Ticket_Management_System
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddDbContext<TicketManagementSystemContext>(options => options.UseSqlServer(Configuration.GetConnectionString("TicketManagementSystemDatabase")));
             services.AddControllersWithViews();
         }
 
