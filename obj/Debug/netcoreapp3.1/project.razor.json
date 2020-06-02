@@ -20531,6 +20531,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\Tickets\\Details.cshtml",
+      "TargetPath": "Views\\Tickets\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\Tickets\\Delete.cshtml",
+      "TargetPath": "Views\\Tickets\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -20541,8 +20551,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\Tickets\\Create.cshtml",
+      "TargetPath": "Views\\Tickets\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\Tickets\\Index.cshtml",
+      "TargetPath": "Views\\Tickets\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\Tickets\\Edit.cshtml",
+      "TargetPath": "Views\\Tickets\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
