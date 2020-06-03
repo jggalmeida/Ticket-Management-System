@@ -11,6 +11,7 @@ namespace Ticket_Management_System.Models
         public DateTime EnteredOn { get; set; }
         public string Email { get; set; }
         public string Priority { get; set; }
+        public string Status { get; set; }
     }
 
 }
