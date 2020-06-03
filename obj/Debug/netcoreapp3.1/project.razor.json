@@ -20546,6 +20546,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\Tickets\\Resolve.cshtml",
+      "TargetPath": "Views\\Tickets\\Resolve.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\jgalm\\Documents\\Ticket-Management-System\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"

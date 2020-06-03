@@ -146,3 +146,4 @@ C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Details.cshtml.g.cs
 C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Edit.cshtml.g.cs
 C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Index.cshtml.g.cs
+C:\Users\jgalm\Documents\Ticket-Management-System\obj\Debug\netcoreapp3.1\Razor\Views\Tickets\Resolve.cshtml.g.cs
