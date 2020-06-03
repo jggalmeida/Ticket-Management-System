@@ -56,9 +56,12 @@
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detail</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                <a asp-action="Resolve" asp-route-id="@item.Id">Resolve</a>
+                @if(item.Status != "Resolvido")
+                {
+                    <a asp-action="Resolve" asp-route-id="@item.Id">Resolve</a>
+                }
             </td>
         </tr>
 }
