@@ -8,6 +8,9 @@ namespace Ticket_Management_System.Models
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        
+        [Display(Name = "Release Date")]
+        [DataType(DataType.Date)]
         public DateTime EnteredOn { get; set; }
         public string Email { get; set; }
         public string Priority { get; set; }
