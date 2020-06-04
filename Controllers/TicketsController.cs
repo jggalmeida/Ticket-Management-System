@@ -184,9 +184,42 @@ namespace Controllers
             {
                 try
                 {
-                    ticket.Status = "Resolvido";
-                    _context.Update(ticket);
-                    await _context.SaveChangesAsync();
+                    if (ticket.Priority == "Alta")
+                    {
+                        ticket.Status = "Resolvido";
+                        _context.Update(ticket);
+                        await _context.SaveChangesAsync();
+                    }
+                    else if(ticket.Priority == "Normal")
+                    {
+                        if (_context.Tickets.Any(e => e.Status == "Pendente" && e.Priority == "Alta"))
+                        {
+                            TempData["Error"] = "Existem tickets com prioridade mais alta";
+                            return View(ticket);
+                        }
+                        else
+                        {
+                            ticket.Status = "Resolvido";
+                            _context.Update(ticket);
+                            await _context.SaveChangesAsync();
+                        }
+                    }
+                    else
+                    {
+                        if (_context.Tickets.Any(e => e.Status == "Pendente" && (e.Priority == "Alta" || e.Priority == "Normal")))
+                        {
+                            TempData["Error"] = "Existem tickets com prioridade mais alta";
+                            return View(ticket);
+                        }
+                        else
+                        {
+                            ticket.Status = "Resolvido";
+                            _context.Update(ticket);
+                            await _context.SaveChangesAsync();
+                        }
+                    }
+
+                    
                 }
                 catch (DbUpdateConcurrencyException)
                 {

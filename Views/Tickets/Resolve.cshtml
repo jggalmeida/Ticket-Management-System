@@ -4,9 +4,23 @@
     ViewData["Title"] = "Resolve";
 }
 
-<h1>Delete</h1>
+@{
+    ViewBag.Title = "Error";
+}
+
+<h1>Resolve Tickets</h1>
+<br>
 
 <h3>Are you sure you want to resolve this?</h3>
+<br>
+
+@if (TempData["Error"] != null)
+{
+    <script type="text/javascript">
+        alert("@TempData["Error"]");
+    </script>
+}
+
 <div>
     <h4>Ticket</h4>
     <hr />
@@ -50,7 +64,10 @@
         <input type="hidden" asp-for="EnteredOn" />
         <input type="hidden" asp-for="Email" />
         <input type="hidden" asp-for="Priority" />
-        <input type="submit" value="Resolve" class="btn btn-danger" /> |
+        <input type="submit" value="Resolve" class="btn btn-danger" />  |
         <a asp-action="Index">Back to List</a>
     </form>
+
+   
+
 </div>
