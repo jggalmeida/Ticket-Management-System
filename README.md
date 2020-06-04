@@ -8,3 +8,10 @@ TMS - Ticket Managemente System - Sistema para avaliação BuildOne
 * Microsoft.EntityFrameworkCore.Design 3.1.4
 * tool codegenerator
 * package Microsoft.VisualStudio.Web.CodeGeneration.Design 
+
+
+Desafios / Problemas
+
+Maneiras para melhorar a aplicação
+
+Instruções para rodar
