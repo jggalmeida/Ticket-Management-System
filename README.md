@@ -1,11 +1,9 @@
 # Ticket-Management-System
 TMS - Ticket Managemente System - Sistema para avaliação vaga backend BuildOne
 
-# Ticket Management System
+
 > Management System to create, edit, delete and resolve tickets.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
 
 # Future Improvements
 
@@ -50,7 +48,7 @@ Docker Start
 docker start sqlserver1
 ```
 
-##Using Azure Data Studio
+## Using Azure Data Studio
 
 Creating Database
 
@@ -140,6 +138,6 @@ João Guilherme Guimarães Almeida
 
 Contact:
 
-[LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-g-g-almeida/ "LinkeId")
-[Github](https://github.com/jggalmeida "Github Profile")
-[E-mail](mailto:j.g.almeida@hotmail.com)
+* [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-g-g-almeida/ "LinkeId")
+* [Github](https://github.com/jggalmeida "Github Profile")
+* [E-mail](mailto:j.g.almeida@hotmail.com)
