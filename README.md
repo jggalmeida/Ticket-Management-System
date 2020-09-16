@@ -9,11 +9,11 @@ TMS - Ticket Managemente System - Sistema para avaliação vaga backend BuildOne
 
 These are a list of future improvements:
 
-* Implement a authentication method to ensure that the user logged in will just see and edit only its tickes.
+* Implement an authentication method to ensure that the user logged in will just see and edit its tickes.
 * Use the authentication to ensure that only Key-users could resolve tickets.
-* Insert a fiedl to make possible to users upload images with errors helping TI specialist resolve tickets.
+* Insert a fiedl to make possible to users upload images with errors helping IT specialist resolve tickets.
 * Create a method to warn (alerts) about tickets open for a while.
-* Improve de front-end with UI/UX techniques
+* Improve the front-end with UI/UX techniques
 
 
 ## Installation
