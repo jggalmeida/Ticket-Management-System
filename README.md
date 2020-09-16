@@ -1,5 +1,5 @@
 # Ticket-Management-System
-TMS - Ticket Managemente System - Sistema para avaliação vaga backend BuildOne
+TMS - Ticket Managemente System
 
 
 > Management System to create, edit, delete and resolve tickets.
