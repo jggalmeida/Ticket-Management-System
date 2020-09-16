@@ -1,5 +1,5 @@
 # Ticket-Management-System
-TMS - Ticket Managemente System
+TMS - Ticket Management System
 
 
 > Management System to create, edit, delete and resolve tickets.
